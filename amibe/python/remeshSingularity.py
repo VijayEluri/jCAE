@@ -184,7 +184,7 @@ else:
 
 ## Remesh Skeleton
 if options.skeleton:
-    RemeshSkeleton(liaison, 1.66, sizeinf/100.0, metric).compute()
+    RemeshSkeleton(liaison, 1.66, metric, 0.01).compute()
 
 ## Remesh
 refineOptions = HashMap()
